@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Chatbot</title>
+  <link rel="stylesheet" type="text/css" href="chatbot.css">
+  <link rel="stylesheet" href="https://rsms.me/inter/inter.css">
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body>
+  <div id="chat-container" class="mt-10">
+    <div class="flex justify-between border-b-2 p-2 bg-gray-300  rounded-md ">
+    <div class=" p-2 w-full flex items-center ">
+    <div class=" w-14 h-14 rounded-full overflow-hidden">
+        <img src="https://static.wixstatic.com/media/46ad2e_647c82df6e244e50b12b7d92708265d5~mv2.jpg/v1/fill/w_48,h_48,q_85,usm_0.66_1.00_0.01/46ad2e_647c82df6e244e50b12b7d92708265d5~mv2.jpg" class="w-full h-full object-cover">
+    </div>
+    <div class="ml-2">
+        <h1 class="text-xl font-semibold">Mysite</h1>
+        <p class="text-normal font-thin">Online</p>
+    </div>
+</div>
+<div class="p-2 mt-4">
+    <a  href="index.html"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-5 h-5">
+        <path stroke-linecap="round" stroke-linejoin="round" d="M6 18L18 6M6 6l12 12" />
+      </svg>
+      </a>
+</div>
+</div>
+    <div id="message-container"></div>
+    <div class="flex items-center p-2">
+    <input class="mt-2" type="text" id="user-input" placeholder="Type your message...">
+    <button class="ml-2" id="send-btn">Send</button>
+</div>
+  </div>
+
+  <script src="chatbot.js"></script>
+</body>
+</html>
