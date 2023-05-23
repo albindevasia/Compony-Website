@@ -1,0 +1,77 @@
+@media screen and (max-width:600px){
+    .navC{
+        display:flex;
+        align-items: center;
+    }
+    .cont{
+        margin-right: 300px;
+    }
+    .web{
+        margin-right: 120px;
+        width:500px;
+    }
+    .mod{
+        font-size: 20px;
+    }
+    .team{
+        width:1000px;
+    margin: 0%;
+    margin-left: 0;
+    row-gap: 0;
+    margin-top: 200px;
+    }
+    .first{
+     
+        width:1000px;
+      
+    }
+    .tom{
+        width:400px;
+        height: 900px;
+      margin-left: -70px;
+    }
+    .med{
+        width:400px;
+        height: 900px;
+        
+      margin-right:200px;
+    }
+    .bray{
+        width:300px;
+        height:900px;
+      
+    }
+    .cibil{
+        width:300px;
+        height: 900px;
+     margin-left: 200px;
+     
+      
+    }
+    .pedro{
+        width:300px;
+        height:900px;
+    }
+    .alva{
+        width:300px;
+        height: 900px;
+     margin-left: 200px;
+      
+    }
+    .harold{
+        width:300px;
+        height:900px;
+    }
+    .jess{
+        width:300px;
+        height: 900px;
+     margin-left: 200px;
+      
+    }
+    .cha{
+   
+        position:fixed;
+        bottom: 0;
+      
+    }
+}

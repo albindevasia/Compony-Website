@@ -1,0 +1,41 @@
+@media screen and (max-width:600px){
+    .navcontainer{
+     margin-right: 300px;
+    
+    }
+    .nav{
+        display: flex;
+        align-items: center;
+    }
+    .tag{
+        font-size: 17px;
+     
+    }
+    .group{
+        width:480px;
+        margin-right: 10px;
+    }
+    .career{
+        width:800px;
+ 
+    }
+     .duo{
+        margin-top: 170px;
+    }
+    .career h1{
+        font-size: 35px;
+    }
+    .career p{
+        font-size: 15px;
+        color:rgb(234, 242, 242)
+    }
+    .jobs{
+        align-items: center;
+     margin: auto;
+     margin-top: 50px;
+     margin-left: 50px;
+    }
+    .job{
+        width: 500px;
+    }
+}

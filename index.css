@@ -24,7 +24,69 @@
   .dropdown:hover .dropdown-content {
     display: block;
   }
+  @media screen and (max-width:600px) {
+    .rag{
+      font-size: 36px;
+      line-height: 50px;
+    }
+    .section {
+
   
+    min-width:1000px;
+    }
+    .dir{
+       margin-right: 300px; 
+    }
+    .navbar{
+ display: flex;
+  align-items: center; 
+  
+
+    } 
+    .slideshow-container {
+position: relative;
+background-size: cover;
+width:1000px;
+padding-left: 20px;
+    }
+    .ron{
+      margin-left: 50px;
+    }
+    .bev{
+      margin-right: 100px;
+      width:1000px;
+    }
+.bav{
+  left:0
+}
+.int{
+  width:250px
+}
+
+.address{
+  width:1000px;
+}
+.address .add{
+  margin-right:40px;
+}
+.chat{
+  position: fixed;
+  bottom: 0;
+}
+.map{
+  width: 1000px;
+}
+.slide{
+  margin-right: 100px;
+}
+.slide img{
+  width:500px;
+}
+.image{
+  width: 250px;
+  height: 100px;
+}
+  }
   
   
   
