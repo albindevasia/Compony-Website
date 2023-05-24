@@ -1,4 +1,4 @@
-@media screen and (max-width:600px){
+@media screen and (max-width:1300px)  {
     .navC{
         display:flex;
         align-items: center;
@@ -16,62 +16,87 @@
     .team{
         width:1000px;
     margin: 0%;
-    margin-left: 0;
+    margin-left: 100px;
     row-gap: 0;
     margin-top: 200px;
     }
     .first{
-     
+display: grid;
+grid-area: auto;
+grid-template-columns: 1fr;
         width:1000px;
       
     }
-    .tom{
-        width:400px;
-        height: 900px;
-      margin-left: -70px;
-    }
+   
     .med{
-        width:400px;
-        height: 900px;
+        display: grid ;
         
-      margin-right:200px;
+     margin-left: 50px;
+        
+
     }
+    .tom{
+       margin-top: 24px;
+       margin-left: 50px;
+    }
+    .second{
+        display: grid;
+        grid-area: auto;
+        grid-template-columns: 1fr;
+                width:1000px;
+              
+            }
+
     .bray{
-        width:300px;
-        height:900px;
-      
+       
+        margin-top: 24px;
+        margin-left: 50px;
     }
     .cibil{
-        width:300px;
-        height: 900px;
-     margin-left: 200px;
-     
+        
+        margin-top: 24px;
+        margin-left: 50px;
+     gap: 10px;
       
+    
     }
+    .third{
+        display: grid;
+        grid-area: auto;
+        grid-template-columns: 1fr;
+                width:1000px;
+              
+            }
+
     .pedro{
-        width:300px;
-        height:900px;
+        margin-top: 24px;
+        margin-left: 50px;
     }
     .alva{
-        width:300px;
-        height: 900px;
-     margin-left: 200px;
       
+        margin-top: 24px;
+        margin-left: 50px;
     }
+    .last{
+        display: grid;
+        grid-area: auto;
+        grid-template-columns: 1fr;
+                width:1000px;
+              
+            }
     .harold{
-        width:300px;
-        height:900px;
+        margin-top: 24px;
+        margin-left: 50px;
     }
     .jess{
-        width:300px;
-        height: 900px;
-     margin-left: 200px;
-      
+        margin-top: 24px;
+        margin-left: 50px;
     }
     .cha{
    
         position:fixed;
         bottom: 0;
+        margin-right: 400px;
       
     }
 }

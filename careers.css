@@ -1,4 +1,5 @@
-@media screen and (max-width:600px){
+@media screen and (max-width:1300px){
+   
     .navcontainer{
      margin-right: 300px;
     
@@ -16,7 +17,7 @@
         margin-right: 10px;
     }
     .career{
-        width:800px;
+        width:1300px;
  
     }
      .duo{
@@ -35,7 +36,7 @@
      margin-top: 50px;
      margin-left: 50px;
     }
-    .job{
+   .jobs .job{
         width: 500px;
     }
 }

@@ -20,4 +20,17 @@
     display: block;
   }
   
+
+  @media screen and (max-width:1300px){
+    body{
+      width:1300px;
+    }
+    .ima{
+      width:1300px;
+    }
+.sec{
+  width:500;
+  margin-right: 100px;
+}
+  }
   

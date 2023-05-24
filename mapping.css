@@ -1,0 +1,25 @@
+@media screen and (max-width:1300px){
+    body{
+        min-width: 1300px;
+        background-size: cover;
+    }
+    .vue{
+        display:flex;
+        align-items: center;
+    }
+    .vid{
+min-width: 1300px;
+    }
+    .hav{
+     background-color: rgb(176, 163, 163);
+     margin-bottom: 100px;
+    }
+    .ms{
+        color:rgb(19, 18, 18);
+        font-size: larger;
+    }
+    .imgv{
+        width:700px;
+        height: 400px;
+    }
+}

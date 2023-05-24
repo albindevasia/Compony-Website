@@ -15,5 +15,35 @@
   .dropdown:hover .dropdown-content {
     display: block;
   }
-  
+  @media screen and (max-width:1300px){
+    body{
+      width:1300px;
+      background-size: cover;
+    }
+    .pp{
+     margin-left: 50px;
+    }
+    .na{
+      width: 500px;
+      /* margin-right: 120px; */
+      
+    }
+ .hea{
+ padding-left: 10px;
+  font-size: 20px;
+ }
+ .bidi{
+  margin-right: 100px;
+ }
+ .bid{
+  display:flex;
+  align-items: center;
+ }
+ .nobid{
+ padding: 5px 5px 5px 5px 5px;
+ }
+ .ch{
+  margin-right: 10px;
+ }
+  }
   

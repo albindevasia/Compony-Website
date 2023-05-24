@@ -1,0 +1,39 @@
+@media screen and (max-width:1300px){
+    body{
+       
+    }
+    .cla{
+        
+    }
+    .pro{
+        display:flex;
+        align-items: center;
+    }
+    .perm{
+margin-top: 170px;
+    }
+    .con{
+        font-size: 15px;
+        line-height: 20px;
+        color: rgba(0, 0, 0, 0.989);
+    }
+    .geo{
+        display: flex;
+        flex-direction: column;
+    }
+   .img{
+    margin-right: 200px;
+    width:700px;
+    height: 500px;
+   }
+   .img1{
+    margin-right: 230px;
+    width:700px;
+    height: 500px;
+    margin-top: 80px;
+   }
+   .tev{
+    font-size:x-large;
+    margin-right: 20px;
+   }
+}
